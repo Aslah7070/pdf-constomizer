@@ -6,6 +6,7 @@ import type { Alignment } from '../../type';
 const LayoutControlls = () => {
       const { state, dispatch } = useInvoice();
   const { settings } = state;
+    console.log("setting",settings);
 
     const handleAlignmentChange = (key: 'headerAlignment' | 'logoPosition', value: Alignment) => {
     dispatch({ type: 'UPDATE_SETTINGS', payload: { [key]: value } })

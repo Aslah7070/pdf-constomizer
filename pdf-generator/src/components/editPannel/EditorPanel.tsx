@@ -2,6 +2,7 @@
 import EditorSection from './EditorSection'
 import LayoutControlls from './LayoutControlls'
 import LogoUploader from './LogoUploader'
+import PdfDownloader from './PdfDownloader'
 
 const EditorPanel = () => {
   return (
@@ -25,9 +26,9 @@ const EditorPanel = () => {
         </EditorSection> */}
       </div>
 
-      {/* <div className="pt-6 border-t border-slate-200">
+      <div className="pt-6 border-t border-slate-200">
         <PdfDownloader />
-      </div> */}
+      </div>
     </div>
   )
 }
