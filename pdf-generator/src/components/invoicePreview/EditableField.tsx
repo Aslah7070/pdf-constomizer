@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
+
 import React, { useEffect, useRef } from 'react'
 
 interface EditableFieldProps {
@@ -8,7 +8,7 @@ interface EditableFieldProps {
   multiline?: boolean;
   type?: 'text' | 'number' | 'date';
 }
-const EditableField = ({value,onChange,className,multiline = false, type = 'text' }:EditableFieldProps) => {
+const EditableField = ({value,onChange,className,multiline = false }:EditableFieldProps) => {
 
     const elementRef=useRef<HTMLDivElement>(null)
 
