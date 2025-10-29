@@ -1,6 +1,7 @@
 
 import EditorSection from './EditorSection'
 import LayoutControlls from './LayoutControlls'
+import LogoUploader from './LogoUploader'
 
 const EditorPanel = () => {
   return (
@@ -11,9 +12,9 @@ const EditorPanel = () => {
       </header>
       
       <div className="space-y-4">
-        {/* <EditorSection title="Company Logo">
-          <LogoUploader />
-        </EditorSection> */}
+        <EditorSection title="Company Logo">
+          <LogoUploader/>
+        </EditorSection>
 
         <EditorSection title="Layout & Spacing">
           <LayoutControlls />
